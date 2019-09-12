@@ -82,6 +82,7 @@ namespace STT_ConsoleApp_Test1
             Dog localDog = new Dog();
             Console.WriteLine(localDuck.ToXML(localDuck));
             Console.WriteLine(localDog.ToXML(localDog));
+            Console.ReadKey();
         }
     }
 }
